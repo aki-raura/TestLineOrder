@@ -19,9 +19,26 @@
 
 <link rel="canonical" href="" />
 <link rel="stylesheet" href="css/index.css">
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 </head>
 <body>
 <h1>Hello World!!</h1>
+<!-- ボタンのコンポーネント -->
+<button id="LoginButton">LINEログイン</button>
+<button id="LogoutButton">ログアウト</button>
+<h1 id="TitleLable">LINEアカウントでログインします</h1>
+<p id="UseId"></p>
+
+<!-- LINEログインのjavascript -->
+<!--
+<script>
+  liff.init({
+    liffId: '2006858322-d7eOJM0Y' 
+  }).then();  
+</script>
+-->
+
+<!-- 注文グーグルフォームのインフレーム -->
 <iframe
   id="TestLineOrderGoogleForm"
   title="Test Line Order"
